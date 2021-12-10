@@ -1,4 +1,4 @@
-nclude "sshell.h"
+#include "sshell.h"
 /**
  * * get_path - function that get path.
  * * Return: path

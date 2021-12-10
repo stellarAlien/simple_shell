@@ -7,6 +7,7 @@
 #include <sys/stat.h>
 #include <string.h>
 extern char **environ;
+int main(void);
 int _putchar(char c);
 char *read_line(void);
 char **split_line(char *line);
