@@ -1,0 +1,66 @@
+.TH HSH 1 "08 Dec 2021" "1.0" "simple_shell man page"
+.SH NAME
+.B simple_shell
+- Man For Simple Shell Project for Holberton School.
+.SH SYNOPSIS
+.B ./hsh
+[command] [options]
+.SH DESCRIPTION
+The simple shell is the Linux command line interpreter. It provides an interface between the user and the kernel and executes programs called commands. For example, if a user enters ls then the shell executes the ls command.
+
+
+.B Overview
+
+This Is A rebuild of the simple UNIX command interpreter
+.B (shell).
+.SH OPTIONS
+ Options are specific to and interpreted by the program that the command calls. By convention, options are separate arguments that follow the name of the command
+.SH ARGUMENTS
+The first argument, argument 0 is understood to be the command to be run by
+.B simple shell
+and arguments following as modifier or options.
+.SH Return value
+The return value of a simple shell is (0)
+.SH Example :
+.BR
+
+
+
+.B Example 1
+
+$./hsh
+
+$
+
+.B Example 2
+
+$ls
+
+.RS 3
+AUTHORS           execute_line.c          extern.c
+.br
+hsh               putchar.c               read_line.c
+.br
+README.md         shell.c                 shell.h
+.br
+split_line.c      str.c
+.RE
+$
+
+
+.SH RESERVED WORDS
+.B exit:
+exit command in linux is used to exit the shell where it is currently running. It takes one more parameter as [N] and exits the shell with a return of status N. If n is not provided, then it simply returns the status of last command that is executed. After pressing enter, the terminal will
+
+.B env:
+env is a shell command for Unix and Unix-like operating systems. It is used to either print a list of environment variables or run another utility in an altered environment without having to modify the currently existing environment.
+
+.B PATH:
+PATH is an environmental variable in Linux and other Unix-like operating systems that tells the shell which directories to search for executable files (i.e., ready-to-run programs) in response to commands issued by a user.
+
+.SH SEE ALSO
+.I _printf
+.SH BUGS
+No bugs know. if there is a bug you can contact us in email.
+.SH AUTHOR
+.BR
