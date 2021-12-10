@@ -47,7 +47,7 @@ The custom shell was developed and tested on `Ubuntu 14.04` LTS via Vagrant in V
 
 ## Compilation
 
-All files will be compiled with the following: 
+All files will be compiled with the following:
 ```bash
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
