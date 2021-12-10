@@ -1,7 +1,7 @@
-nclude "sshell.h"
+#include <stddef.h>
 /**
- * * get_path - function that get path.
- * * Return: path
+ * get_path - function that get path.
+ * Return: path
  */
 char *get_path()
 {
